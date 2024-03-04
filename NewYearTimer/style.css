@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 5vw;
+}
+
+.wrapper {
+  position: relative;
+  /* margin-top: 25vh; */
+  z-index: 2;
+}
+
+.countdown-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  font-size: 9vw;
+  gap: 20px;
+  backdrop-filter: blur(3px);
+  border-radius: 50px;
+}
+
+.countdown-wrapper p {
+  font-size: 2.5vw;
+  text-align: center;
+}
+
+#video-bg {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}

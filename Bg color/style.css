@@ -1,0 +1,22 @@
+@import url("../../general.css");
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 3.5%;
+  font-size: 48px;
+}
+
+button {
+  font-size: 24px;
+  padding: 24px;
+  border: 3px solid #000;
+  border-radius: 50px;
+  cursor: pointer;
+}
